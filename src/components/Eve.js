@@ -1,3 +1,5 @@
+import Gallery from "../Pages/Gallery"
+
 function Eve(prop){
     var data =prop.data;
     var index=prop.ind;
@@ -16,7 +18,7 @@ function Eve(prop){
      </span>
      <span className="w-[55vw] h-[auto] m-0">
         <div className="w-[auto] h-[100%] pr-[5vw] py-[3vw]" >
-
+            <Gallery event={data.name}></Gallery>
         </div>
      </span>
      
